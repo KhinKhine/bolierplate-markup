@@ -1,0 +1,10 @@
+{
+  "title": "Nested Page",
+  "description": "This is the nested page",
+  "keywords": "nested, page",
+  "pageClass": "nested-page",
+  "list": [
+    "nested",
+    "page"
+  ]
+}

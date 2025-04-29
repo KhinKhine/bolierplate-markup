@@ -1,0 +1,168 @@
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fuji-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.-up:before {
+    content: '\e900';
+  }
+
+  &.-arrow-forward:before {
+    content: '\e901';
+  }
+
+  &.-arrow-back:before {
+    content: '\e902';
+  }
+
+  &.-backward:before {
+    content: '\e903';
+  }
+
+  &.-forward:before {
+    content: '\e904';
+  }
+
+  &.-car:before {
+    content: '\e905';
+  }
+
+  &.-trash-x:before {
+    content: '\e906';
+  }
+
+  &.-sun:before {
+    content: '\e907';
+  }
+
+  &.-crawn:before {
+    content: '\e908';
+  }
+
+  &.-trash:before {
+    content: '\e909';
+  }
+
+  &.-home:before {
+    content: '\e90a';
+  }
+
+  &.-star-o:before {
+    content: '\e90b';
+  }
+
+  &.-close:before {
+    content: '\e90c';
+  }
+
+  &.-left-v:before {
+    content: '\e90d';
+  }
+
+  &.-right-v:before {
+    content: '\e90e';
+  }
+
+  &.-plus:before {
+    content: '\e90f';
+  }
+
+  &.-minus:before {
+    content: '\e910';
+  }
+
+  &.-first:before {
+    content: '\e911';
+  }
+
+  &.-last:before {
+    content: '\e912';
+  }
+
+  &.-left:before {
+    content: '\e913';
+  }
+
+  &.-right:before {
+    content: '\e914';
+  }
+
+  &.-down:before {
+    content: '\e915';
+  }
+
+  &.-question:before {
+    content: '\e916';
+  }
+
+  &.-box:before {
+    content: '\e918';
+  }
+
+  &.-business:before {
+    content: '\e919';
+  }
+
+  &.-shop:before {
+    content: '\e91a';
+  }
+
+  &.-user:before {
+    content: '\e91b';
+  }
+
+  &.-cart:before {
+    content: '\e91c';
+  }
+
+  &.-lang:before {
+    content: '\e91d';
+  }
+
+  &.-search:before {
+    content: '\e91e';
+  }
+
+  &.-check:before {
+    content: '\e91f';
+  }
+
+  &.-info:before {
+    content: '\e920';
+  }
+
+  &.-backspace:before {
+    content: '\e921';
+  }
+
+  &.-star:before {
+    content: '\e922';
+  }
+
+  &.-badge-star:before {
+    content: '\e923';
+  }
+
+  &.-badge-check:before {
+    content: '\e924';
+  }
+
+  &.-tire:before {
+    content: '\e917';
+  }
+
+  @for $i from 1 through 20 {
+    &.-size-#{2 * $i} {
+      font-size: #{2 * $i}px;
+    }
+  }
+}

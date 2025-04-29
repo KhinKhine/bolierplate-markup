@@ -1,0 +1,37 @@
+.link {
+  --link-color: #000;
+  --link-bg-color: #fff;
+  --link-border-color: #ccc;
+  --link-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+
+  color: var(--link-color);
+  background: var(--link-bg-color);
+  display: flex;
+  align-items: center;
+
+  &__title {
+    white-space: pre;
+  }
+
+  &.-nav-main {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--link-border-color);
+    justify-content: space-between;
+  }
+
+  &.-nav-sub {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 12px;
+    gap: 4px;
+    border-radius: 2px;
+    box-shadow: var(--link-shadow);
+  }
+
+  &.-sp-header {
+    font-weight: 600;
+    padding: 8px;
+  }
+}

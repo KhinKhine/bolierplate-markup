@@ -1,0 +1,8 @@
+{
+  "title": "HOME",
+  "description": "This is the home page",
+  "breadcrumb": {
+    "pageName": "ABOUT",
+    "dir": "about"
+  }
+}

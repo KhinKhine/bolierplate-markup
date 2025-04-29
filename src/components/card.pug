@@ -1,0 +1,17 @@
+mixin card({ href, image, title, description, target, direction })
+  a.card(href=href, target=target)
+    .card__inner
+      .card-image
+        img(src=image, alt="画像")
+      .card-content
+        h3= title
+        p= description
+
+mixin card-row({ href, image, title, description, target })
+  a.card.-row(href=href, target=target)
+    .card__inner
+      .card-image
+        img(src=image, alt="画像")
+      .card-content
+        h3= title
+        p= description

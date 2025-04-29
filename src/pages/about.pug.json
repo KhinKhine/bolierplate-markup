@@ -1,0 +1,13 @@
+{
+  "title": "ABOUT",
+  "description": "This is the about page",
+  "keywords": "about, test",
+  "pageClass": "about",
+  "list": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

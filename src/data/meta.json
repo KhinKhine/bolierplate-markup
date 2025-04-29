@@ -1,0 +1,15 @@
+{
+    "metas": {
+        "title": "SITE TITLE",
+        "url": "https://test.com",
+        "description": "descriptionを記入してください",
+        "keywords": "keywordを記入して下さい",
+        "lang": "ja",
+        "locale": "ja_JP",
+        "tweetMessage": "descriptionを記入してください",
+        "hashtags": "",
+        "twitterId": "",
+        "related": "",
+        "image": "../assets/images/common/ogp.jpg"
+    }
+}

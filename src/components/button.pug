@@ -1,0 +1,10 @@
+//- https://github.com/mike-goodwin/pug-bootstrap/blob/master/components/buttons.pug
+
+//- data.theme, data.size, data.disabled, data.props
+mixin button({theme, size, onClick, disabled, type})
+  button.button(class=theme && `-${theme}`, type=type, onclick=onClick, disabled=disabled)
+    block
+
+mixin a-button({theme, size, href="#", target})
+  a.button(class=theme && `-${theme}`, role="button", href=href, target=target)
+    block

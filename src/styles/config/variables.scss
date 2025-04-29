@@ -1,0 +1,83 @@
+/**
+ * Colors
+==================== */
+/// List of Colors
+
+$colors: (
+  // base
+  'prime': #d1003f,
+  'second': #fdd500,
+
+  // gray
+  'gray-light': #f7f7f7,
+  'gray-mid': #e7e7e7,
+  'gray-dark': #151515,
+  'white': #fff,
+  'black': #000,
+
+  // state
+  'success': #a3ca60,
+  'info': #0650cb,
+  'warning': #eaba5d,
+  'error': #dd3e34,
+
+  // main
+  'bg': #fff,
+  'text': #39464d,
+  'border': #c1c6c9
+) !default;
+
+/**
+ * Breakpoints
+ ==================== */
+/// List of Breakpoints
+$breakpoints: (
+  sm: 768,
+  md: 1020,
+  lg: 1400,
+) !default;
+
+/**
+ * Design Sizes
+==================== */
+/// List of Design sizes
+$design-sizes: (
+  sp: 375,
+  tb: 992,
+  pc: 1440,
+) !default;
+
+/**
+ * Spacing Units
+==================== */
+/// List of Spacing Units
+
+$spacing-units: (
+  xs: 8,
+  sm: 16,
+  md: 32,
+  lg: 64,
+  xl: 128,
+  xxl: 256,
+) !default;
+
+/**
+ * Font sizes
+==================== */
+/// List of Font Sizes
+$font-sizes: (
+  'sm': em(12),
+  'md': 1em,
+  'lg': em(24),
+) !default;
+
+/**
+ * Font Families
+==================== */
+/// List of Font Families
+
+$font-families: (
+  'default': sans-serif,
+  'en': sans-serif,
+  'ja': sans-serif,
+) !default;

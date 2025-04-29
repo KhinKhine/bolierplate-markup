@@ -1,0 +1,79 @@
+{
+    "main": [
+        {
+            "label": "お買い物",
+            "href": "#"
+        },
+        {
+            "label": "イメージから探す",
+            "href": "#"
+        },
+        {
+            "label": "会員情報",
+            "href": "#"
+        },
+        {
+            "label": "ヘルプ",
+            "href": "#"
+        },
+        {
+            "label": "会社情報・IR・\n採用情報",
+            "href": "#"
+        },
+        {
+            "label": "ENGLISH",
+            "href": "#"
+        }
+    ],
+    "nav": {
+        "main": [
+            {
+                "label": "お買い物",
+                "href": "#"
+            },
+            {
+                "label": "イメージから探す",
+                "href": "#"
+            },
+            {
+                "label": "会員情報",
+                "href": "#"
+            },
+            {
+                "label": "ヘルプ",
+                "href": "#"
+            },
+            {
+                "label": "会社情報・IR・\n採用情報",
+                "href": "#"
+            },
+            {
+                "label": "ENGLISH",
+                "href": "#"
+            }
+        ],
+        "sub": [
+            {
+                "label": "店舗情報",
+                "href": "#",
+                "icon": "shop"
+            },
+            {
+                "label": "マイページ",
+                "href": "#",
+                "icon": "user"
+            },
+            {
+                "label": "法人営業\n問い合わせ",
+                "href": "#",
+                "icon": "business"
+            },
+            {
+                "label": "カート",
+                "href": "#",
+                "icon": "cart",
+                "count": 3
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "vite-pug-sass-template",
+  "version": "1.0.0",
+  "description": "vite-pug-sass-template",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "npx vite",
+    "dev": "npx vite --host",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
+  },
+  "dependencies": {
+    "@vituum/vite-plugin-postcss": "^1.1.0",
+    "@vituum/vite-plugin-pug": "^1.1.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "pug-lint": "^2.7.0",
+    "sass": "^1.79.4",
+    "vite-plugin-beautify": "^1.0.0",
+    "vite-plugin-stylelint": "^5.3.1",
+    "vituum": "^1.1.1"
+  },
+  "devDependencies": {
+    "swiper": "^11.1.1"
+  },
+  "volta": {
+    "node": "18.16.0"
+  }
+}

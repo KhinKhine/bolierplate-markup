@@ -1,0 +1,9 @@
+extends /layouts/sub-layout
+
+block append script
+  script(src="/src/scripts/pages/about.js", type="module")
+
+block append content
+  ul
+    each item in list
+      li= item

@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "eslint.options": {
+    "extensions": [".html", ".js", ".vue", ".json", ".jsm", ".jsx"]
+  },
+  "files.eol": "\n",
+  "javascript.format.enable": true,
+  "prettier.configPath": ".prettierrc",
+  "puglint.enable": true,
+  "scss.format.enable": true,
+  "scss.validate": true,
+  "yaml.format.enable": true,
+  "editor.tabSize": 2
+}

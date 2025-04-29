@@ -1,0 +1,50 @@
+extends /layouts/main-layout
+
+block append script
+  script(src="/src/scripts/pages/top.js", type="module")
+
+block append style
+  link(rel="stylesheet", href="/src/styles/pages/index.scss")
+
+block append content
+
+  section
+    h2 コンポーネント
+
+    h3 パンクズシンプル
+    +breadcrumb({pageName: 'ABOUT', dir: 'about'})
+
+    h3 パンクズマルチ
+    +breadcrumb(
+      {pageName: 'テスト', dir: 'test'},
+      {pageName: 'ブログ記事', dir: 'article01'}
+    )
+
+    h3 デフォルトボタン
+    +button({})
+      span デフォルトボタン
+
+    h3 プライマリーボタン
+    +button({theme: "prime"})
+      span プライマリーボタン
+
+    h3 セカンドボタン
+    +button({theme: "second"})
+      span セカンドボタン
+
+    h3 ボタンクリックでアラート
+    +button({ onclick: () => alert("デフォルトボタンをクリックしました")})
+      span ボタンクリックでアラート
+
+    h3 ボタン非活性
+    +button({ disabled: true })
+      span ボタン非活性
+
+    h3 カード縦
+    // cards.json からデータを取得してカードを表示
+    each data in cards
+      +card(data)
+
+    h3 カード横
+    each data in cards
+      +card-row(data)

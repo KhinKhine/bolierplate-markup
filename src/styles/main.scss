@@ -1,0 +1,29 @@
+/**
+ * Critical Css
+ */
+// Config
+@import 'config/+';
+
+// Component
+@import 'components/+';
+
+
+// 新しく追加されるコンポーネントはこちら
+
+.test {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 17, 17, 0%) 0,
+    rgba(17, 17, 17, 70%) 51.56%,
+    #111 100%
+  );
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.main-right {
+  width: 100%;
+}

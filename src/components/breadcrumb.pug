@@ -1,0 +1,11 @@
+//- TODO: add micro data
+//- https://schema.org/BreadcrumbList
+mixin breadcrumb(...items)
+  ul.breadcrumb
+    li.breadcrumb__item
+      a.breadcrumb__link(href="/")
+        span.breadcrumb__title HOME
+    each item, index in items
+      li.breadcrumb__item
+        a.breadcrumb__link(href=`/${item.dir}`)
+          span.breadcrumb__title #{ item.pageName }

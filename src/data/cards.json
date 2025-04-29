@@ -1,0 +1,32 @@
+{
+    "cards": [
+        {
+            "href": "/about",
+            "image": "https://source.unsplash.com/random/200x100?v1",
+            "title": "About",
+            "description": "lorem ipsum dolor sit amet"
+        },
+        {
+            "href": "https://www.idealump.com",
+            "image": "https://source.unsplash.com/random/200x100?v2",
+            "title": "IDEALUMP",
+            "description": "lorem ipsum dolor sit amet",
+            "direction": "row",
+            "target": "_blank"
+        },
+        {
+            "href": "https://www.google.com",
+            "image": "https://source.unsplash.com/random/200x100?v3",
+            "title": "Google",
+            "description": "lorem ipsum dolor sit amet",
+            "target": "_blank"
+        },
+        {
+            "href": "https://www.yahoo.jp",
+            "image": "https://source.unsplash.com/random/200x100?v4",
+            "title": "Yahoo",
+            "description": "lorem ipsum dolor sit amet",
+            "target": "_blank"
+        }
+    ]
+}

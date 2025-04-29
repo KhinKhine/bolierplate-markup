@@ -1,0 +1,7 @@
+mixin pageTitle({ title, description })
+  .page-title
+    if title
+      h1.page-title__heading #{title}
+    if description
+      p.page-title__lead #{description}
+  hr.page-title__hr

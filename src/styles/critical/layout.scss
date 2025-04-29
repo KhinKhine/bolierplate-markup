@@ -1,0 +1,25 @@
+.layout {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.layout__main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout__footer {
+  margin-top: auto;
+}

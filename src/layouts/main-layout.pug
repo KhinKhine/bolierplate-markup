@@ -1,0 +1,22 @@
+include ../components/all
+
+block vars
+  - pageClass = "page--home"
+
+doctype html
+html(lang=metas.lang)
+  include main-head
+  body
+    .layout(class=pageClass)
+      block body
+        .layout__header
+          include main-header
+        .layout__main.main
+          .main__inner
+            block content
+        .layout__footer
+          include main-footer
+
+    //- Page scripts
+    block script
+      script(src="/src/scripts/common.js", type="module")
